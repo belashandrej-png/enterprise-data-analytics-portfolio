@@ -1,0 +1,26 @@
+# Окружение и зависимости
+venv/
+env/
+.env
+*.egg-info/
+
+# Данные и артефакты (никогда не коммитим реальные данные!)
+*.csv
+*.parquet
+*.xlsx
+*.db
+*.sqlite
+data/
+assets/*.csv
+assets/*.parquet
+
+# Секреты и конфиги с паролями
+configs/secrets.yaml
+configs/.env.local
+
+# IDE и ОС
+.idea/
+.vscode/
+.DS_Store
+__pycache__/
+*.pyc
