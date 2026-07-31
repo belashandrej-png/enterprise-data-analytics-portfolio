@@ -22,3 +22,20 @@
 | **Инфраструктура** | Docker, Git, Linux |
 
 ## Структура репозитория
+
+├── 01_etl_and_data_pipelines/ # ETL-конвейеры и оркестрация
+── 02_service_monitoring_and_metrics/ # Мониторинг и метрики
+├── 03_product_analytics_and_bi/ # BI-дашборды и аналитика
+└── docs/ # Документация архитектуры
+
+##  Быстрый старт
+
+```bash
+# Клонировать репозиторий
+git clone https://github.com/belashandrej-png/enterprise-data-analytics-portfolio.git
+
+# Перейти в папку
+cd enterprise-data-analytics-portfolio
+
+# Установить зависимости (будет добавлено позже)
+pip install -r requirements.txt
